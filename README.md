@@ -1,12 +1,23 @@
 ## Overview
-This is a neural network wirtten entirely in java to recognize hand written characters from the MNIST dataset. It is designed to make configurable neural networks with different activation functions and hidden layer structures. 
+This project implements a neural network in Java designed to recognize handwritten digits from the MNIST dataset. The network can be configured with various activation functions and hidden layer structures, allowing for flexibility in model design.
 
 
-## Motivatioin
-I wrote this as a challenge for myself and an exercise to learn more about neural networks. Additionally at the time I had just taken classes in vector calculus and linear algebra and this seemed like a neat application of what I learned. 
+## Motivation
+The idea for this project came after taking classes in vector calculus and linear algebra. I wanted to apply what I learned and challenge myself by building a neural network from the ground up, using as little existing code as possible. 
 
 
 ## Instructions 
-Mnist.java trains a new neural netowrk and saves it as network.idx 
+1. Compile the code
+ ```bash
+  javac *.java
+```
+2. Run MnistTest.java to run the existing network saved as test_network.idx
+```bash
+  java MnistTest
+```
 
-MnistTest.java runs the network saved as test_network.idx
+3. Run Mnist.java to train a new neural network and save it as network.idx
+```bash
+  java Mnist
+```
+
